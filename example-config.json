@@ -1,0 +1,10 @@
+{
+    "ifttt": "insert your IFTTT maker channel key here",
+    "dashButtons": {
+        "tide": "00:00:00:00:00:06",
+        "finish": "00:00:00:00:00:0B",
+        "bounty": "00:00:00:00:00:0C",
+        "hefty": "00:00:00:00:00:0F",
+        "glad": "00:00:00:00:00:04"
+    }
+}
