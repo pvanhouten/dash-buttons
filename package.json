@@ -1,0 +1,31 @@
+{
+  "name": "dash-buttons",
+  "version": "0.1.0",
+  "description": "Collection of dash button events to be used with win-node-dash-button",
+  "main": "app.js",
+  "dependencies": {
+    "win-node-dash-button": "^0.1.1",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvanhouten/dash-buttons.git"
+  },
+  "keywords": [
+    "dash",
+    "amazon",
+    "ifttt",
+    "button",
+    "internet"
+  ],
+  "author": "Phil Van Houten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pvanhouten/dash-buttons/issues"
+  },
+  "homepage": "https://github.com/pvanhouten/dash-buttons#readme"
+}
