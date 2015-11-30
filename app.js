@@ -1,6 +1,7 @@
 var app = require("win-node-dash-button"),
     fs = require("fs"),
     tideEvent = require("./tide.js"),
+    finishEvent = require("./finish.js"),
     Server = app.Server,
     DashButton = app.DashButton,
     config = JSON.parse(fs.readFileSync("config.json")),
@@ -8,7 +9,7 @@ var app = require("win-node-dash-button"),
 
     svr = new Server(),
     tide   = new DashButton(dashButtons.tide, tideEvent),
-    finish = new DashButton(dashButtons.finish, function () { console.log("Finish pressed"); }),
+    finish = new DashButton(dashButtons.finish, finishEvent),
     bounty = new DashButton(dashButtons.bounty, function () { console.log("Bounty pressed"); }),
     hefty  = new DashButton(dashButtons.hefty, function () { console.log("Hefty pressed"); }),
     glad   = new DashButton(dashButtons.glad, function () { console.log("Glad pressed"); });
